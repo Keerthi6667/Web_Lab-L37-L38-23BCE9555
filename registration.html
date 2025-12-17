@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+
+    <style>
+        body {
+            text-align: center;   /* centers heading */
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            width: 350px;
+            margin: 0 auto;       /* centers form */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="tel"],
+        input[type="password"],
+        input[type="file"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Profile Picture -->
+        <label for="profile">Choose Profile Picture:</label><br>
+        <input type="file" id="profile" name="profile" required>
+        <br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the Terms & Conditions</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
