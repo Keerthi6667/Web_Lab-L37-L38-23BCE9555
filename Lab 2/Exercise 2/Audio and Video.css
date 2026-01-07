@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.section {
+    margin-top: 25px;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 8px;
+}

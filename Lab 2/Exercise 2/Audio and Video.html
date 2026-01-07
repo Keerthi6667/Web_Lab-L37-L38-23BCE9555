@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio and Video</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="Audio and Video.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>HTML5 Audio and Video Demo</h1>
+
+    <!-- Audio Section -->
+    <div class="section">
+        <h2>Audio Player</h2>
+        <audio id="audioPlayer" controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p id="audioTime">Current Time: 0:00</p>
+    </div>
+
+    <!-- Video Section -->
+    <div class="section">
+        <h2>Video Player</h2>
+        <video id="videoPlayer" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <p id="videoTime">Current Time: 0:00</p>
+    </div>
+</div>
+
+<!-- Link JavaScript -->
+<script src="Audio and Video.js"></script>
+
+</body>
+</html>
