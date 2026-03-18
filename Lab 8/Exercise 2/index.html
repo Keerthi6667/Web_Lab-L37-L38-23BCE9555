@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Object Input</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 8px;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        .output {
+            margin-top: 15px;
+            text-align: left;
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h2>Enter Student Details</h2>
+
+    <input type="number" id="id" placeholder="Enter ID">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="dept" placeholder="Enter Department">
+    <input type="number" id="marks" placeholder="Enter Marks">
+
+    <button onclick="showStudent()">Submit</button>
+
+    <div id="output" class="output"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

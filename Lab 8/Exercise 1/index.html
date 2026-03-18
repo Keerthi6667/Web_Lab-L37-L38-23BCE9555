@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Marks Calculator</title>
+
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            font-family:Arial;
+            background-color:#692a4e;
+        }
+
+        .container{
+            background:rgb(255, 255, 255);
+            padding:30px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 0 10px rgb(125, 75, 70);
+        }
+
+        input{
+            margin:5px;
+            padding:5px;
+        }
+
+        button{
+            padding:8px 15px;
+            margin-top:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Marks Calculator</h2>
+
+<label>Student Name:</label><br>
+<input type="text" id="name"><br>
+
+<label>Mark 1:</label><br>
+<input type="number" id="m1"><br>
+
+<label>Mark 2:</label><br>
+<input type="number" id="m2"><br>
+
+<label>Mark 3:</label><br>
+<input type="number" id="m3"><br>
+
+<button onclick="calculate()">Calculate</button>
+
+<h3 id="result"></h3>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
